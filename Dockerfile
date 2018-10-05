@@ -3,7 +3,7 @@ FROM nimmis/apache-php5
 
 MAINTAINER SemaphoreCI <dev@semaphoreci.com>
 
-COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
+COPY / /etc/www/
 
 EXPOSE 80
 EXPOSE 443
